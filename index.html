@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/905afdc471.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <title>NOIZE</title>
+</head>
+<body>
+    <nav id="navbar">
+            <a href="#home"><img src="pic/mainlogo.png" alt=""></a>
+            <div class="toggle" onclick="toggleM();"></div>
+        <ul class="navigation">
+            <li><a href="#home">Home <i class="fas fa-angle-down"></i></a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#concerts">Concert</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#features">Features <i class="fas fa-angle-down"></i></a></li>
+        </ul>
+        <div class="social">
+            <a href="http://instagram.com" target="_blank" ><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="http://linkedin.com" target="_blank" ><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="http://youtube.com" target="_blank" ><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="http://facebook.com" target="_blank" ><i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                FEEL THE
+            </h1>
+            <h1 class="l-heading">
+                NOISE
+            </h1>
+        </div>
+    </header>
+
+    <div id="content">
+        <div id="leftside">
+            <div id="portion">
+                <i class="fas fa-map-marker-alt fa-4x"></i>
+                <div>
+                    <h2>Find Us</h2>
+                    <p>Marylebone Rd, Marylebone,</p>
+                    <p>London NW1 SH, UK</p>
+                </div>
+            </div>
+            <div id="portion">
+                <i class="fas fa-phone-alt fa-4x"></i>
+                <div>
+                    <h2>Call Us</h2>
+                    <p>+456 481 1772</p>
+                    <p>+4326 5825 56</p>
+                </div>
+            </div>
+            <div id="portion">
+                <i class="far fa-clock fa-4x"></i>
+                <div>
+                    <h2>Working Hours</h2>
+                    <p>Mon - Fri: 8 AM - 5 PM</p>
+                    <p>Sat - Sun: 8 AM - 2 PM</p>
+                </div>
+            </div>
+            <div id="portion">
+                <i class="far fa-envelope fa-4x"></i>
+                <div>
+                    <h2>Write To Us</h2>
+                    <p>Office@noise.con</p>
+                    <p>Press@noise.con</p>
+                </div>
+            </div>
+        </div>
+        <div id="rightside">
+            <form action="#">
+            <div class="name_email">
+                <div class="name">                
+                    <input type="name" placeholder="Your Name...">
+                </div>
+                <div class="name">
+                    <input type="email" placeholder="Your Eamil...">
+                </div>
+            </div>
+            <div class="message">
+                <input type="message" placeholder="Your Message..">
+            </div>
+            <a href="#" class="btn">Send</a>
+            </form>
+        </div>
+    </div>
+
+    <div class="map">map</div>
+
+    <footer id="footer">
+        <img src="pic/secondlogo.png" alt="images">
+        <p>2020 Vernon Street, San Diego</p>
+        <p>+(760) 707-4815 |M: info@noise.com</p>
+        <div class="social2">
+            <!-- <a href=""><i class="fab fa-instagram"></i></a><i class="fab fa-linkedin"></i><i class="fab fa-youtube"></i><i class="fab fa-facebook-f"></i> -->
+
+            <ul>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-facebook-f"></i></a></li>
+            </ul>
+
+
+
+        </div>
+        <h2>MADE BY TRUE THEMES.</h2>
+    </footer>
+    <script src="main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFB_9WxsPfqpRBo7-sqyAwyhl5G4BVhLE&callback=initMap&libraries=&v=weekly" async></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bolder;
+}
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.6rem 1rem;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    color: azure;;
+}
+
+#navbar.sticky {
+    background: rgb(11, 10, 15);
+    box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.05) ;
+}
+
+#navbar img {
+    width: 9.375rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 1000;
+}
+
+#navbar.sticky {
+    color: #fff;
+}
+
+#navbar ul li a {
+    color: white;
+    padding: 0.4rem 1.8rem;
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+    background: rgb(247, 51, 51);
+    color: black;
+}
+
+#navbar.sticky ul li a:hover {
+    color: rgb(247, 51, 51);
+    background: none;
+}
+
+#navbar .social a {
+    color: azure;
+    padding: 0.5rem 1rem;
+}
+
+#navbar .social a :hover {
+    color: black;
+}
+
+#navbar.sticky a .fab:hover {
+    color: rgb(247, 51, 51);
+}
+
+#showcase {
+    background: rgb(59, 59, 59) url('/pic/concert2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 800px;
+    color: azure;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 7rem;
+}
+
+.l-heading {
+    font-size: 7rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background: rgb(11, 10, 15);
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+#content #leftside {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center ;
+}
+
+#content #leftside #portion {
+    display: flex;
+    text-align: left;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+#content #leftside #portion i {
+    color: rgb(247, 51, 51);
+    padding-right: 2.2rem;
+}
+
+#content #leftside #portion h2 {
+    padding-bottom: 2rem;
+    font-size: 30px;
+}
+
+#content #leftside #portion p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#content #rightside {
+    justify-content: center;
+    align-items: center;
+}
+
+#rightside .name_email {
+    display: flex;
+    flex-direction: row;
+}
+
+#rightside .name {
+    width: 280px;
+    margin-bottom: 0.9rem;
+}
+
+#rightside .name input[type = 'name'] {
+    width: 95%;
+    padding: 0.8rem;
+}
+
+#rightside .name input[type = 'email'] {
+    width: 95%;
+    padding: 0.8rem;
+}
+
+#rightside .message input[type = 'message'] {
+    width: 97.7%;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.btn {
+    display: inline-block;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(247, 51, 51);
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    margin-top: 0.5rem;
+    width: 97.7%;
+    text-align: center;
+}
+
+.btn:hover {
+    border-color: #fff;
+    color: rgb(247, 51, 51);
+}
+
+.map {
+    padding: 15rem;
+    width: 100%;
+    height: 100%;
+}
+
+.social2 ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social2 ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social2 ul li .fa {
+    color: #fff;
+    font-size: 25px;
+}
+
+.social2 ul li .fa:hover {
+    color: rgb(247, 51, 51);
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(11, 10, 15);
+    color: #fff;
+}
+
+#footer img {
+    width: 150px;
+    margin-top: 3rem;
+    margin-bottom: 9rem;
+}
+
+#footer p {
+    margin-bottom: 1rem;
+}
+
+#footer i {
+    margin: 2rem 1rem;
+    margin-bottom: 8rem;
+}
+
+#footer h2 {
+    margin: 2rem;
+    color: rgb(247, 51, 51);
+}
